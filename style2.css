@@ -1,0 +1,37 @@
+body {
+	background-image: url('img/bg6.jpg');
+}
+
+h1,
+.message,
+.tellname,
+.emailadd,
+.phoneNo,
+.msg,
+.no-account {
+	color: #FFFFFF;
+}
+
+.my-nav {
+	background-color: #0009;	
+}
+
+.btn1{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	background: transparent;
+	transition: 0.2;
+}
+
+.btn1:hover{
+	color: #FFFFFF;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+}

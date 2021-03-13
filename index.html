@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.gallerys').magnificPopup({
+                type:'image',
+                delegate: 'a',
+            });
+        });
+    </script>
+
+    <!--Navigation Bar-->
+    <nav class="navbar my-nav navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <!--
+                <img src="img/logo.png">
+                -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Banner-->
+    <div id="home" class="row no-gutters backgroundimg">
+        <div class="col text-center">
+            <img class="photo mt-5" src="img/Me.jpg">
+            <div class="intro mt-5 pt-5">
+                <p>Hello,</p>
+                <p>I am Tanvir</p>
+                <p>Welcome to my page</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Two Column Section-->
+
+    <div id="about-me" class="container-fluid padding">
+        <div class="row padding">
+            <div class="aboutme col-md-12 col-lg-6 my-5">
+                <h2 class="aboutbtn">
+                    <span></span>
+                    About Me
+                </h2>
+                <p>My name is Tanvir Ahmed Khan. I am a SOPHOMORE at CSE department of Independent University of Bangladesh.</p>
+                <p>I have been doing 3d modelling for over 2 years now. I can create all kinds of models from achritectural to animated visuals. I have a youtube page named Egon Castle where I share my artwork.</p>
+                <p>I use blender most of the time for creating models. Below are some of my previous renders.</p>
+                <br>
+            </div>
+            <div class="col-lg-6 my-5">
+                <img src="img/IMG_6225.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio-->
+    <section id="portfolio" class="bg-light">
+        <div class="container pb-3">
+            <div class="py-3">
+                <h2 class="port">
+                    Portfolio
+                </h2>
+            </div>
+            <!--
+            <p class="lead text-muted mb-5">In enim non sit irure ut adipisicing laboris et laborum.</p>
+            -->
+            <div class="row gallerys">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/cube-2.png" target="_blank">
+                            <img src="img/cube-2.png" alt="" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5> <a href="#" class="text-dark">Glass Cube</a></h5>
+                            <p class="text-muted card-text">Created with cycles rendering engine.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/sci-fi-box.png" target="_blank">
+                            <img src="img/sci-fi-box.png" alt="" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5><a href="#" class="text-dark">Sci-fi Cube</a></h5>
+                            <p class="text-muted card-text">Created with eevee real-time rendering engine.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/particle.png" target="_blank">
+                            <img src="img/particle.png" alt="" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5><a href="#" class="text-dark">Particle Simulation</a></h5>
+                            <p class="text-muted card-text">Physics simulation and over 5 thousand particles are used.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/Night 3.jpg" target="_blank">
+                            <img src="img/Night 3.jpg" alt="" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5> <a href="#" class="text-dark">Architecture</a></h5>
+                            <p class="text-muted card-text">Realistic environment.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/liberation-war.jpg" target="_blank">
+                            <img src="img/liberation-war.jpg" alt="" class="card-img-top">
+                        </a>
+                        
+                        <div class="card-body">
+                            <h5> <a href="#" class="text-dark">Bits & Piecies from history</a></h5>
+                            <p class="text-muted card-text">Liberation war from Rajarbagh.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0 h-100">
+                        <a href="img/nightfall.png" target="_blank">
+                            <img src="img/nightfall.png" alt="" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h5> <a href="#" class="text-dark">Nightfall</a></h5>
+                            <p class="text-muted card-text">Image from my 2nd youtube video.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="container text-center mb-4">
+                <p class="design"><span></span>My Youtube channel videos</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TFxzVowFQdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <div class="container work my-5" id="work">
+
+        <div class="work-category">
+            <button id="designing" onclick="showRequiredCategory(this)">Realistic Renders</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Photography</button>
+            <button id="project" onclick="showRequiredCategory(this)">Animation</button>
+        </div>
+        
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/realistic/1.png" alt=""></a>
+            <a href=""><img src="img/realistic/2.png" alt=""></a>
+            <a href=""><img src="img/realistic/3.png" alt=""></a>
+            <a href=""><img src="img/realistic/4.png" alt=""></a>
+            <a href=""><img src="img/realistic/5.jpg" alt=""></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="img/photography/1.jpg" alt=""></a>
+            <a href=""><img src="img/photography/2.jpg" alt=""></a>
+            <a href=""><img src="img/photography/3.jpg" alt=""></a>
+            <a href=""><img src="img/photography/4.jpg" alt=""></a>
+            <a href=""><img src="img/photography/5.jpg" alt=""></a>
+            <a href=""><img src="img/photography/6.jpg" alt=""></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><video width="320" height="240" src="img/animation/1.mp4" controls></video></a>
+            <a href=""><video width="320" height="240" src="img/animation/2.mp4" controls></a>
+            <a href=""><video width="320" height="240" src="img/animation/4.mp4" controls></a>
+            <a href=""><video width="320" height="240" src="img/animation/5.mp4" controls></a>
+        </div>
+    </div>
+    
+
+    <!--Fixed Background-->
+    <figure>
+        <div class="fixed-wrap">
+            <div class="fixed">
+            
+            </div>
+        </div>
+    </figure>
+
+
+    <footer id="connect">
+      <div class="contact-me">
+        <p>If you have Any project in your mind.</p>
+        <a class="contactbtn" href="message.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Send Me a Message!
+        </a>
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/egoncastle.fb"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/egoncastle/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCaDRgniRfIIuKwZ2QyFMHgw"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </footer>
+
+
+    
+    <!--attched social bar-->
+    <div class="a-social-b">
+      <a href="https://www.facebook.com/egoncastle.fb"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/egoncastle/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCaDRgniRfIIuKwZ2QyFMHgw"><i class="fab fa-youtube"></i></a>
+    </div>
+
+  </body>
+</html>
